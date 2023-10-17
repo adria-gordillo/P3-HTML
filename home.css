@@ -8,3 +8,25 @@ nav{
     background-color: #FFC045;
     display: center;
 }
+
+figure{
+    Border: 3px #FFC045 dotted;
+    padding: 5px;
+    margin: 5px;
+    width: 25%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+div{
+    display:flex;
+}
+
+#patata{
+    color: #FFC045;
+    background-color: #0A91AB;
+}
