@@ -1,20 +1,24 @@
+header{
+    background-color: #0A91AB;
+    text-align: center;
+}
+
 h1{
     color: #FFC045;
-    background-color: #0A91AB;
     display: center;
 }
 nav{
+    position: sticky;
     justify-content: center;
     background-color: #FFC045;
     display: center;
 }
 
 figure{
-    Border: 3px #FFC045 dotted;
     padding: 5px;
     margin: 5px;
-    width: 25%;
-    height: auto;
+    width: 12;
+    height: 12;
     font-family: Arial, Helvetica, sans-serif ;
 }
 
@@ -22,11 +26,54 @@ img{
     width: 100%;
     height: auto;
 }
-div{
+.patata{
     display:flex;
+    float: left;
+    flex-wrap:wrap;
 }
 
-#patata{
+#mas-info{
     color: #FFC045;
     background-color: #0A91AB;
+    align-self: flex-end;
 }
+
+.box{
+    Border: 3px #FFC045 dotted;
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: auto;
+    margin: 20px;
+}
+
+.boxn{
+    Border: 3px #000000 solid;
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: auto;
+    margin: 10px;
+}
+
+.trucos{
+    Border: 3px #45ff8c dotted;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+a:hover {
+    color: #0A91AB;
+}
+
+.active{
+    background-color: #0fb2d3;
+}
+
+a {
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
