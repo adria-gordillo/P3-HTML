@@ -7,11 +7,29 @@ h1{
     color: #FFC045;
     display: center;
 }
-nav{
-    position: sticky;
-    justify-content: center;
-    background-color: #FFC045;
+
+h2{
+    color: #FFC045;
     display: center;
+}
+
+h3{
+    color: #FFC045;
+    display: center;
+}
+
+h4{
+    color: #FFC045;
+    display: center;
+}
+main {
+    position: relative;
+}
+.sticky{
+    position: sticky;
+    background-color: #FFC045;
+    top: 0;
+    z-index: 1;
 }
 
 figure{
@@ -27,40 +45,39 @@ img{
     height: auto;
 }
 .patata{
+    justify-content: center;
     display:flex;
     float: left;
     flex-wrap:wrap;
 }
 
+
+
+
 #mas-info{
     color: #FFC045;
     background-color: #0A91AB;
-    align-self: flex-end;
+    border-radius: 5px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+
 }
 
 .box{
     Border: 3px #FFC045 dotted;
+    border-radius: 20px;
     float: left;
     width: 25%;
     padding: 10px;
     height: auto;
     margin: 20px;
+    position: relative;
+    padding-bottom: 60px;
 }
 
-.boxn{
-    Border: 3px #000000 solid;
-    float: left;
-    width: 25%;
-    padding: 10px;
-    height: auto;
-    margin: 10px;
-}
 
-.trucos{
-    Border: 3px #45ff8c dotted;
-    justify-content: flex-start;
-    flex-direction: column;
-}
+
 
 a:hover {
     color: #0A91AB;
@@ -77,3 +94,47 @@ a {
     padding: 14px 16px;
     text-decoration: none;
   }
+
+.abajo{
+    display:flex;
+}
+
+.trucos{
+    text-align: center;
+    float: left;
+    Border: 3px #030303 dotted;
+    border-radius: 20px;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 20%;
+    background-color: #0A90Ab25;
+}
+.news {
+    display: flex;
+    float: right;
+}
+
+.fecha{
+    text-align: left;
+}
+
+.boxn{
+    Border: 3px #0A91AB solid;
+    border-radius: 20px;
+    width: auto;
+    padding: 10px;
+    height: auto;
+    margin: 3%;
+} 
+
+.noticias{
+    float: right;
+    flex-wrap:wrap;
+    width: 60%;
+    text-align: center;
+}
+
+.turcos{
+    color: #0A91AB;
+}
